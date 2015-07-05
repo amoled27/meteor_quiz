@@ -3,6 +3,7 @@
 
 
 	<li>Questions</li>
+	<form class="answer">
 	{{#each questions}}
 		{{no}}
 		<b>{{qn}}</b>
@@ -19,11 +20,15 @@
 
 		<input class="with-gap" name="group3" type="radio" id="test7" checked={{checked}} />
     <label for="test7">{{op4}}</label><br>
+
+
+		<!-- custom dataset data-trueans takes ans field from DB -->
 		
-		<button type="submit" class="answer">submit</button>
+
+		<button type="submit" data-trueans="{{ans}}" id="answer">submit</button>
 	{{/each}}
 
-
+</form>
 	</div>
-	
+
 </template>
