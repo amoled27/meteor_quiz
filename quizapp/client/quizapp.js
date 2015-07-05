@@ -29,11 +29,13 @@ var returndata = function(ans_id) {         //function
 Template.questions.events({
 	'submit .answer': function(event){
 		var answer=event.target.answer.value;
-		var ans_id = event.target.dataset.trueans; //answer passed is stored in ans_id
-		console.log(ans_id);
-		if(answer==returndata(ans_id)) //checks if ans_id is true
+		console.log(answer);
+		console.log(this.answer);
+
+		if(answer==this.answer)
 			console.log("correct!");
 		else
 			console.log("wrong");
-	}
+		return false;
+}
 });
