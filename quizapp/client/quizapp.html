@@ -9,27 +9,7 @@
   		</button>
   </div>
         
-</template>
 
-<template name="questions">
-	<li>Questions</li>
-	{{#each questions}}
-		{{no}}
-		<b>{{qn}}</b>
 
-		<input class="with-gap" name="group3" type="radio" id="test5" checked={{checked}} />
-    <label for="test5">{{op1}}</label><br>
-		
-		<input class="with-gap" name="group3" type="radio" id="test5" checked={{checked}} />
-    <label for="test5">{{op2}}</label><br>
-
-		<input class="with-gap" name="group3" type="radio" id="test5" checked={{checked}} />
-    <label for="test5">{{op3}}</label><br>
-
-		<input class="with-gap" name="group3" type="radio" id="test5" checked />
-    <label for="test5">{{op4}}</label><br>
-		
-		{{/each}}
-	
-	
+{{>questions}} <!--template for questions-->
 </template>
