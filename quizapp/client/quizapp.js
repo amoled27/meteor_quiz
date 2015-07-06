@@ -9,14 +9,8 @@ Template.questions.helpers({
 			op3: "fine3",
 			op4: "fine4",
 			ans: "fine2"
-			
-
-	}
+		}
 	]
-
-	
-	
-	
 });
 
 var returndata = function(ans_id) {         //function
@@ -27,7 +21,8 @@ var returndata = function(ans_id) {         //function
 
 
 Template.questions.events({
-	'submit .answer': function(event){
+	'submit form': function(event){
+		event.preventDefault();
 		var answer=event.target.answer.value;
 		console.log(answer);
 		console.log(this.answer);
