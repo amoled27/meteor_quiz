@@ -9,3 +9,76 @@
   		</button>
   </div>
 </template>
+
+
+
+
+
+
+
+<template name="questions">
+	<div  class="center-align maintext">
+	<li>Questions</li>
+	{{#each display}}
+		<b>{{question}}</b>
+		<br>
+
+
+
+
+
+		 <form action="#">
+    <p>
+      <input name="choice" type="radio" id="test1"  value="1" />
+      <label for="test1">{{option1.[0]}}</label>
+    </p>
+    <p>
+      <input name="choice" type="radio" id="test2"  value="2" />
+      <label for="test2">{{option2.[0]}}</label>
+    </p>
+    <p>
+      <input name="choice" type="radio" id="test3"   value="3" />
+      <label for="test3">{{option3.[0]}}</label>
+    </p>
+      <p>
+        <input name="choice" type="radio" id="test4"  value="4" />
+        <label for="test4">{{option4.[0]}}</label>
+    </p>
+    <input type="submit" />
+      </form>
+        
+
+
+
+
+
+
+	{{/each}}
+	
+
+
+<!-- 	<form class="answer">
+
+	{{#each questions}}
+		<b>{{view}}</b>
+		<br>
+
+		<input class="with-gap" name="answer" type="radio" id="test4" checked={{checked}} />
+    <label for="test4">{{op1}}</label><br>
+		
+		<input class="with-gap" name="answer" type="radio" id="test5" checked={{checked}} />
+    <label for="test5">{{op2}}</label><br>
+
+		<input class="with-gap" name="answer" type="radio" id="test6" checked={{checked}} />
+    <label for="test6">{{op3}}</label><br>
+
+		<input class="with-gap" name="answer" type="radio" id="test7" checked={{checked}} />
+    <label for="test7">{{op4}}</label><br>
+		<button type="submit" data-trueans="{{ans}}" id="answer">submit</button>
+	{{/each}}
+
+
+</form> -->
+	</div>
+
+</template>
