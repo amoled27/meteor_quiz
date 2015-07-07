@@ -4,7 +4,7 @@
 		<br>
 			<h3>some Subcaption blah blah </h3>
 			<br>
-		<button id="startquiz" class="btn waves-effect waves-light" type="submit" name="action" font-size="15px">Start
+		<button id="startquiz" class="btn waves-effect waves-light" type="submit" name="action" font-size="15px" action="#quizstart">Start
     			<i class="material-icons">send</i>
   		</button>
   </div>
@@ -16,7 +16,7 @@
 
 
 
-<template name="questions">
+<template name="questions" id="quizstart">
 	<div  class="center-align maintext">
 	<li>Questions</li>
 	{{#each display}}

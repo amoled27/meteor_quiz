@@ -1,5 +1,21 @@
-.nav{
-	background-color: #039be5 light-blue darken-1;
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+.headerbar{
+  margin-top: 0px;
+  padding: 15px;
+}
 
 
+#titlemain{
+  padding : 10px;
+  font-family: 'Frijole', cursive;
+
+}
+
+
+.subtitle{
+  padding-left: 14px;
 }
