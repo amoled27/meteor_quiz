@@ -11,11 +11,16 @@
 
 #titlemain{
   padding : 10px;
-  font-family: 'Frijole', cursive;
+ 
 
+}
+#title_main{
+	 font-family: 'Cabin Sketch', cursive;
+	 font-size: 120px;
 }
 
 
 .subtitle{
   padding-left: 14px;
+  font-size: 40px;
 }
