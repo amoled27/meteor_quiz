@@ -1,4 +1,4 @@
 Router.route('/', function () {
-  this.render('intro');
+  this.render('questions');
 });
 

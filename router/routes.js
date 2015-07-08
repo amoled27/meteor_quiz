@@ -12,3 +12,9 @@ Router.route('/questions',function(){
 	this.render('questions',{to:'maincontent'})
 
 })
+
+Router.route('/',function(){
+
+	this.render('intro',{to:'maincontent'})
+
+})
