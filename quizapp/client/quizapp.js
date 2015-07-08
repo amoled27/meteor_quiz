@@ -10,6 +10,7 @@ Template.questions.events({
 		event.preventDefault();
 		var answer=event.target.choice.value;
 		console.log(answer);
+		materialze.toast(answer,3000);
 		console.log(this.answer);
 
 		if(answer==this.answer)
