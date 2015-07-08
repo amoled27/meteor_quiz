@@ -8,12 +8,12 @@
 
 <body>
 <div class="editCss">
-	
-	{{>navbar}}
+	<navbararea>
+	{{>yield navbararea}}
+	</navbararea>
+     {{yield introarea}}
 
-     {{>intro}}
-
-     {{>questions}}
+ <!--     {{>questions}} -->
      
 </div>
 </body>
