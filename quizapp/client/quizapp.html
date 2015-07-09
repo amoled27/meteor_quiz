@@ -20,12 +20,14 @@
 </template>
 
 
-
-
+<template name="score">
+	<h1>Your score is {{displayScore}}</h1>
+</template>
 
 
 
 <template name="questions" id="quizstart">
+	{{>score}}
 	<div  class="center-align maintext">
 	<li>Questions</li>
 	{{#each display}}
