@@ -2,7 +2,7 @@
 Meteor.startup(function() {
 
   // if there are no questions available create sample data
-  if (Questions.find().count()==0) {
+  if (Questions.find().count()===0) {
 
     // create sample questions
     var samplequestions = [
@@ -314,22 +314,9 @@ Meteor.startup(function() {
             "V=G+I",
             "I= 0.5G -v"
               ]
-},//------end
+}//------end
 
-<<<<<<< HEAD
-      {
 
-        "question": "Is meteor awesome?",
-        "answer": 1,
-        "options": [
-                      "no",
-                      "yes",
-                      "no",
-                      "no"
-                    ]
-      }
-=======
->>>>>>> 5576874339a19bd8b69d0a1b237f7db0a12f12ed
     ];
 
     // loop over each sample question and insert into database
