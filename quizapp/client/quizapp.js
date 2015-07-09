@@ -17,30 +17,25 @@ Template.questions.onRendered(function(){
 
 });
 
-var score=Session.get('score');
+Template.score.helpers({
+	displayScore: function(){
+		var score=Session.get('score');
+		return score;
+	}
+});
+
 
 Template.questions.helpers({
 	'display': function(){
-
-
-
-
-
 		var arr = []
-	while(arr.length < 10){
-  	var randomnumber=Math.ceil(Math.random()*20)
-  	var found=false;
- 	 for(var i=0;i<arr.length;i++){
-		if(arr[i]==randomnumber){found=true;break}
- 	 }
- 	 if(!found)arr[arr.length]=randomnumber;
-	}
-
-
-
-
-
-
+		while(arr.length < 10){
+  		var randomnumber=Math.ceil(Math.random()*20)
+  		var found=false;
+ 		for(var i=0;i<arr.length;i++){
+			if(arr[i]==randomnumber){found=true;break}
+ 		 }
+ 		 if(!found)arr[arr.length]=randomnumber;
+		}
 		return Questions.find({ no: {$in:arr}});
 	},
 
@@ -59,7 +54,10 @@ Template.questions.events({
 		if(answer==this.answer){
 			console.log("correct!");
 			Materialize.toast('+1',2000);
-			score=score+1;
+
+			var score=Session.get('score');
+			Session.set('score', score+1);
+
 		}
 
 		else{
