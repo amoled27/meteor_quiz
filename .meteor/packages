@@ -11,3 +11,7 @@ materialize:materialize
 iron:router
 aldeed:simple-schema
 aldeed:autoform
+accounts-password
+accounts-ui
+useraccounts:materialize
+accounts-google

@@ -9,7 +9,7 @@ Meteor.startup(function() {
 
       {
 
-        "quesion": "Is meteor awesome?",
+        "question": "Is meteor awesome?",
         "answer": 1,
         "options": [
                       "no",
