@@ -58,11 +58,14 @@ Template.questions.events({
 		var answer=event.target.choice.value;
 		if(answer==this.answer){
 			console.log("correct!");
+			Materialize.toast('+1',2000);
 			score=score+1;
 		}
 
 		else{
 			console.log("wrong");
+			Materialize.toast('Oops!!Wrong',2000);
+
 		}
 
 		var limit = Session.get('limit');
