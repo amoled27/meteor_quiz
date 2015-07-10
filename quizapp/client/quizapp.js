@@ -43,14 +43,17 @@ Template.questions.events({
 		var answer=event.target.choice.value;
 		if(answer==this.answer){
 			console.log("correct!");
-			Materialize.toast('Correct! :-)');
+
+			Materialize.toast('Correct! :-)', 2000);
 			var score=Session.get('score');
 			Session.set('score', score+1);
+
 		}
 
 		else{
 			console.log("wrong");
-			Materialize.toast('Wrong! :-(');
+
+			Materialize.toast('Wrong! :-(', 2000);
 		}
 
 		var limit = Session.get('limit');
