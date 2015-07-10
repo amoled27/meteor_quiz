@@ -50,10 +50,17 @@
         <input name="choice" type="radio" id="{{_id}}+4"  value="3" />
         <label for="{{_id}}+4">{{options.[3]}}</label>
     </p>
-    <input type="submit" />
+
+    {{#if isQuestionCountGT1}}
+    <input class="btn " type="submit" id="loadNext" />
+    {{/if}}
+
       </form>
 	{{/each}}
 	</div>
+	<br>
+	<br>
+	<button class="btn align-center endQuiz">End the quiz!</button>
 
 </template>
 
