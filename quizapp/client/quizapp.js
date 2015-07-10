@@ -53,7 +53,7 @@ Template.questions.events({
 		var answer=event.target.choice.value;
 		if(answer==this.answer){
 			console.log("correct!");
-			Materialize.toast('+1',2000);
+		Materialize.toast('+1',2000);
 
 			var score=Session.get('score');
 			Session.set('score', score+1);

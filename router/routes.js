@@ -18,3 +18,5 @@ Router.route('/',function(){
 	this.render('intro',{to:'maincontent'})
 
 })
+
+

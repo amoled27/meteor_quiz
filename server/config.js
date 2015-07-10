@@ -22,20 +22,20 @@ Meteor.startup(function() {
           "question": "Who is the CEO & CTO of spaceX & also the CEO of Tesla Motors",
           "answer": 2,
           "options": [
-            "Mark Zuckerberg",
-            "William Stallings",
-            "Elon Musk",
-            "Sergy Bin"
+            "Mark Zuckerberg         ",
+            "William Stallings       ",
+            "Elon Musk               ",
+            "Sergy Bin               "
               ]
 },
 {         "no":2,
           "question": "A vixen is a female of what?",
           "answer": 3,
           "options": [
-            "hare",
-            "Badger",
-            "Swan",
-            "Fox"
+            "hare                    ",
+            "Badger                  ",
+            "Swan                    ",
+            "Fox                     "
               ]
 },//------end
 
@@ -43,10 +43,10 @@ Meteor.startup(function() {
           "question": "Who sang 1980's hit song 'Billie Jean'?",
           "answer": 1,
           "options": [
-            "Queen Latifah",
-            "Michael Jackson",
-            "Billie Joe Armstrong",
-            "Fredde Mercury"
+            "Queen Latifah           ",          
+            "Michael Jackson         ",
+            "Billie Joe Armstrong    ",
+            "Fredde Mercury          "
               ]
 },//-----end
 
@@ -54,10 +54,10 @@ Meteor.startup(function() {
           "question": "Havana is the capital city of which country?",
           "answer": 1,
           "options": [
-            "California",
-            "Cuba",
-            "Argentina",
-            "Chile"
+            "California              ",
+            "Cuba                    ",
+            "Argentina               ",
+            "Chile                   "
               ]
 },//------end
 
@@ -65,20 +65,20 @@ Meteor.startup(function() {
           "question": "Which wonder of the ancient world was found in Alexandria?",
           "answer": 2,
           "options": [
-            "Hanging Gardens",
-            "Great Pyramid",
-            "The lighthouse",
-            "Temple of Artemis"
+            "Hanging Gardens         ",
+            "Great Pyramid           ",
+            "The lighthouse          ",
+            "Temple of Artemis       "
               ]
 },//------end
 {         "no":6,
           "question": "Which rapper did Kim Kardashian marry in 2014?",
           "answer": 2,
           "options": [
-            "Jay-z",
-            "Ray-J",
-            "Kanye West",
-            "Dr Dre"
+            "Jay-z                   ",
+            "Ray-J                   ",
+            "Kanye West              ",
+            "Dr Dre                  "
               ]
 },//------end
 {         "no":7,
@@ -86,39 +86,39 @@ Meteor.startup(function() {
           "answer": 0,
           "options": [
             "short for pocket monster",
-            "Pokemon prefecture",
-            "random Syllables",
-            "Akira Pokemon"
+            "Pokemon prefecture      ",
+            "random Syllables        ",
+            "Akira Pokemon           "
               ]
 },//------end
 {         "no":8,
           "question": "What was the highest grossing film of 2010?",
           "answer": 2,
           "options": [
-            "Twilight",
-            "Inception",
-            "Toy Story 3",
-            "Harry Potter"
+            "Twilight                 ",
+            "Inception                ",
+            "Toy Story 3              ",
+            "Harry Potter             "
               ]
 },//------end
 {         "no":9,
           "question": "What is the smallest state in India?",
           "answer": 1,
           "options": [
-            "Goa",
-            "Sikkim",
-            "Manipal",
-            "Mizoram"
+            "Goa                      ",
+            "Sikkim                   ",
+            "Manipal                  ",
+            "Mizoram                  "
               ]
 },//------end
 {         "no":10,
           "question": "Which of the following is the most important cash crop of Assam?",
           "answer": 3,
           "options": [
-            "Sugarcane",
-            "coffee",
-            "cotton",
-            "Tea"
+            "Sugarcane                ",
+            "coffee                   ",
+            "cotton                   ",
+            "Tea                      "
               ]
 },//------end
 
@@ -126,10 +126,10 @@ Meteor.startup(function() {
           "question": "Which of the following has a potential for harnessing tidal energy in India?",
           "answer": 0,
           "options": [
-            "Gulf of Cambay",
-            "Gulf of Mannar",
-            "Chilka Lake",
-            "Backwaters of Kerala"
+            "Gulf of Cambay           ",
+            "Gulf of Mannar           ",
+            "Chilka Lake              ",
+            "Backwaters of Kerala     "
               ]
 },//------end
 
@@ -140,10 +140,10 @@ Meteor.startup(function() {
           "question": "Who is the creator of Linux?",
           "answer": 0,
           "options": [
-            "Linus Torvalds",
-            "Steve Jobs",
-            "Alan Turing",
-            "william Gates"
+            "Linus Torvalds            ",
+            "Steve Jobs                ",
+            "Alan Turing               ",
+            "william Gates             "
               ]
 },
 
